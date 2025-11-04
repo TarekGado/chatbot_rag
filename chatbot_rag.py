@@ -20,7 +20,7 @@ from langchain.llms import OpenAI
 from langchain.chains import RetrievalQA
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 from google.colab import files
 uploaded = files.upload()
